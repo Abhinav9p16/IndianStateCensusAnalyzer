@@ -35,6 +35,18 @@ public class StateCensusTest {
             Assert.assertEquals(CustomException.ExceptionType.BINDING_PROBLEM_AT_RUNTIME, e.type);
         }
     }
+    @Test
+    public void givenTheStateCensusCSVFile_CorrectCsvHeader_Incorrect_ReturnCustomException() throws IOException {
+
+        StateCensusAnalyser analyser = new StateCensusAnalyser("/Users/abhinavthakur/Desktop/Intellij/IndianStatesCensusAnalyzer/StateCensusData.csv");
+        try {
+            analyser.getStateCensusRecord();
+        } catch ( CustomException e) {
+            e.printStackTrace();
+            Assert.assertEquals(CustomException.ExceptionType.BINDING_PROBLEM_AT_RUNTIME,e.type);
+        }
+
+    }
 }
 
 

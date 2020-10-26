@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:46:25" hostname="ABHINAVs-MacBook-Air.local" time="0.111">
+<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:48:19" hostname="ABHINAVs-MacBook-Air.local" time="0.156">
   <properties/>
-  <testcase name="givenTheState_StateCensusCSVFile_Whencorrect_ButDelimiterIncorrect_ReturnsCustomException" classname="com.cg.censusanalyzer.StateCensusTest" time="0.111"/>
+  <testcase name="givenTheStateCensusCSVFile_CorrectCsvHeader_Incorrect_ReturnCustomException" classname="com.cg.censusanalyzer.StateCensusTest" time="0.156"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
