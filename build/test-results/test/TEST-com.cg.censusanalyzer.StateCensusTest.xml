@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T18:31:56" hostname="ABHINAVs-MacBook-Air.local" time="0.094">
+  <properties/>
+  <testcase name="when_ReadCSVFile_Count_Records_Should_Return_True" classname="com.cg.censusanalyzer.StateCensusTest" time="0.094"/>
+  <system-out><![CDATA[37
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
