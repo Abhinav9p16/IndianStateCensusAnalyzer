@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:16:26" hostname="ABHINAVs-MacBook-Air.local" time="0.099">
+<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:18:54" hostname="ABHINAVs-MacBook-Air.local" time="0.057">
   <properties/>
-  <testcase name="when_InCorrectCSV_FileType_Should_Return_False" classname="com.cg.censusanalyzer.StateCensusTest" time="0.099"/>
+  <testcase name="when_CorrectCSVFile_But_Delimiter_Incorrect_Should_Return1_False" classname="com.cg.censusanalyzer.StateCensusTest" time="0.057"/>
   <system-out><![CDATA[37
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
