@@ -24,6 +24,17 @@ public class StateCensusTest {
             Assert.assertEquals("Incorrect File_Type", e.getMessage());
         }
     }
+    @Test
+    public void givenTheState_StateCensusCSVFile_Whencorrect_ButDelimiterIncorrect_ReturnsCustomException() throws IOException {
+        StateCensusAnalyser analyser = new StateCensusAnalyser("/Users/abhinavthakur/Desktop/Intellij/IndianStatesCensusAnalyzer/StateCensusData.csv");
+        try {
+            analyser.getStateCensusRecord();
+        } catch (CustomException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+            Assert.assertEquals(CustomException.ExceptionType.BINDING_PROBLEM_AT_RUNTIME, e.type);
+        }
+    }
 }
 
 

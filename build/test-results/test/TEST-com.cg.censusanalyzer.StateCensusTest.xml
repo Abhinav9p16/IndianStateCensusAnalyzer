@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:44:30" hostname="ABHINAVs-MacBook-Air.local" time="0.113">
+<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:46:25" hostname="ABHINAVs-MacBook-Air.local" time="0.111">
   <properties/>
-  <testcase name="whenReadFileTyeisIncorrect_shouldReturnfalse" classname="com.cg.censusanalyzer.StateCensusTest" time="0.113"/>
+  <testcase name="givenTheState_StateCensusCSVFile_Whencorrect_ButDelimiterIncorrect_ReturnsCustomException" classname="com.cg.censusanalyzer.StateCensusTest" time="0.111"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
