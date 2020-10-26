@@ -13,7 +13,7 @@ public class StateCensusTest {
             Assert.assertEquals(37, stateCensusAnalyser.getCountStateRecords("/Users/abhinavthakur/Desktop/Intellij/IndianStatesCensusAnalyzer/StateCode.csv","com.cg.censusanalyzer.State"));
         } catch (CustomException e) {
             System.out.println(e.getMessage());
-           // Assert.assertEquals(CustomException.ExceptionType.FILE_NOT_FOUND, e.type);
+            Assert.assertEquals(CustomException.ExceptionType.FILE_NOT_FOUND, e.type);
         } catch (IOException e) {
             e.printStackTrace();
         }
