@@ -18,6 +18,16 @@ public class StateCensusTest {
             e.printStackTrace();
         }
     }
+    @Test
+    public void when_InCorrectCSV_FileType_Should_Return_False() throws IOException {
+        try {
+            Assert.assertEquals(37, stateCensusAnalyser.getCountStateRecords("/Users/abhinavthakur/Desktop/Intellij/IndianStatesCensusAnalyzer/StateCode.csv","com.cg.censusanalyzer.State"));
+        } catch (CustomException e) {
+            System.out.println(e.getMessage());
+            Assert.assertEquals(CustomException.ExceptionType.BINDING_PROBLEM_AT_RUNTIME, e.type);
+        }
+
+    }
 
 
     }
