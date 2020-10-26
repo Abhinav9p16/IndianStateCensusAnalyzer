@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:40:57" hostname="ABHINAVs-MacBook-Air.local" time="0.138">
+<testsuite name="com.cg.censusanalyzer.StateCensusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T19:44:30" hostname="ABHINAVs-MacBook-Air.local" time="0.113">
   <properties/>
-  <testcase name="when_ReadstateCensusCSV_File_Count_Records_Should_Return_True" classname="com.cg.censusanalyzer.StateCensusTest" time="0.138"/>
-  <system-out><![CDATA[No of Records in StateCSV: 28
-]]></system-out>
+  <testcase name="whenReadFileTyeisIncorrect_shouldReturnfalse" classname="com.cg.censusanalyzer.StateCensusTest" time="0.113"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

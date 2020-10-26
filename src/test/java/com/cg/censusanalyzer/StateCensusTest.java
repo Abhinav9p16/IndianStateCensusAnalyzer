@@ -14,6 +14,16 @@ public class StateCensusTest {
         System.out.println("No of Records in StateCSV: " + analyser.getStateCensusRecord());
         Assert.assertEquals(28, analyser.getStateCensusRecord());
     }
+    @Test
+    public void whenReadFileTyeisIncorrect_shouldReturnfalse() throws IOException, CustomException {
+        StateCensusAnalyser analyser = new StateCensusAnalyser("/Users/abhinavthakur/Desktop/Intellij/IndianStatesCensusAnalyzer/StateCensusData.csv");
+        try {
+            analyser.getStateCensusRecord();
+        } catch (CustomException e) {
+            e.printStackTrace();
+            Assert.assertEquals("Incorrect File_Type", e.getMessage());
+        }
+    }
 }
 
 
